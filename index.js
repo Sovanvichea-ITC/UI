@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors')
 const app = express();
 // const httpURL = 'https://project-ip-hotel.web.app';
-const httpURL = "http://localhost:3000";
+const httpURL = "https://project-ip-hotel.web.app";
 
 app.use(cors({
   origin: httpURL,

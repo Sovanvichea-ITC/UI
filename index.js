@@ -18,6 +18,8 @@ app.use(bodyParser.json());
 // Connect session
 require('./configs/session')(app);
 
+
+
 // Connect mongodb
 require('./configs/db')();
 
